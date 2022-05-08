@@ -1,4 +1,4 @@
 # Music-Streaming-Cloud-Architecture-in-AWS-
 Music-Streaming-Cloud-Architecture-in-AWS
 
-![image](https://user-images.githubusercontent.com/80985027/167272339-d0e238b6-4b91-4cfc-bdc9-a71f1566b1e7.png)
+![image](https://user-images.githubusercontent.com/80985027/167283219-186113f0-2bf8-476d-bb87-cc3d48ea74f4.png)
