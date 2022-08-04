@@ -8,7 +8,7 @@ Therefore, a cloud-based infrastructure service is required to overcome these di
 
 
 
-Illustration of System Architecture.
+**Illustration of System Architecture.**
 Amazon route 53 distributes user requests (the traffic) to the infrastructure running (healthy endpoints) in AWS and manages the network traffic globally. The incoming application or network traffic are automatically distributed by Elastic load balancer to the available EC2 instances in single or multiple availability zones. EC2 instances support a variety of workloads of the application server in the auto-scaling group. The complete control of increased traffic load is performed by running scalable Amazon RDS on an EC2 instance. This is an example of an unmanaged service that can manage application optimization. Amazon RDS performs administrative tasks to reduce operational workloads and costs. Amazon elastic transcoder transcodes media files into a playable format and stores processed music files into an Amazon S3 bucket for distribution. Amazon CloudFront delivers requested song (music files) with low latency and high transfer speeds to the requested web page (output devices). Amazon CloudWatch alarm is used to trigger auto-scaling of EC2 instances when the latency of any one of the EC2 instances exceeds a preconfigured threshold.
 
 
